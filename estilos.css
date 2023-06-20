@@ -31,9 +31,15 @@ header{
     display: flex;
     align-items: center;
 }
+.secciones{
+    display: flex;
+    flex-wrap: wrap;
+}
 .secciones button{
-    width: 200px;
-    height: 30px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
     background-color: var(--very-light-pink);
     border: none;
     border-radius: 8px;
@@ -69,7 +75,7 @@ main{
 }
 .secon-bar{
     width: 85%;
-    height: 64px;
+    height: auto;
     background-color: var(--yellow);
     display: flex;
     align-items: center;
@@ -82,7 +88,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -274,11 +280,8 @@ img{
         display: flex;
         justify-content: center;
         text-align: center;
-        flex-direction: column;
         padding: 5px;
-        margin: 1px;;
+        margin: 5px;
     }
-
-
 
 }
